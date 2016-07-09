@@ -1,0 +1,46 @@
+2016-06-20 13:59:48 Error: [NotFoundException] Invalid Purchase
+Request URL: /igud/purchases/edit
+Stack Trace:
+#0 [internal function]: PurchasesController->edit()
+#1 C:\xampp\htdocs\cakephp\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PurchasesController), Array)
+#2 C:\xampp\htdocs\cakephp\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\cakephp\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(PurchasesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\igud\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-06-25 16:46:54 Error: [MissingTableException] Table proffetions for model Proffetion was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'proffetions',
+  'class' => 'Proffetion',
+  'ds' => 'default',
+)
+Request URL: /igud/proffetions/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\Cake\Model\Model.php(3247): Model->setSource('proffetions')
+#1 C:\xampp\htdocs\cakephp\Cake\Model\Model.php(2700): Model->getDataSource()
+#2 C:\xampp\htdocs\cakephp\Cake\Controller\Component\PaginatorComponent.php(198): Model->find('all', Array)
+#3 C:\xampp\htdocs\cakephp\Cake\Controller\Controller.php(1078): PaginatorComponent->paginate(NULL, Array, Array)
+#4 C:\xampp\htdocs\igud\Controller\ProffetionsController.php(17): Controller->paginate()
+#5 [internal function]: ProffetionsController->index()
+#6 C:\xampp\htdocs\cakephp\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProffetionsController), Array)
+#7 C:\xampp\htdocs\cakephp\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#8 C:\xampp\htdocs\cakephp\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(ProffetionsController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\xampp\htdocs\igud\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2016-06-25 16:56:35 Error: [MissingControllerException] Controller class ProfetionsController could not be found.
+Exception Attributes: array (
+  'class' => 'ProfetionsController',
+  'plugin' => NULL,
+)
+Request URL: /igud/profetions/
+Stack Trace:
+#0 C:\xampp\htdocs\igud\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-07-04 23:47:00 Error: [MissingControllerException] Controller class CustomersController could not be found.
+Exception Attributes: array (
+  'class' => 'CustomersController',
+  'plugin' => NULL,
+)
+Request URL: /igud/customers
+Stack Trace:
+#0 C:\xampp\htdocs\igud\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

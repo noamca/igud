@@ -1,0 +1,40 @@
+﻿body {font-size:16px;}
+.container {background:none;}
+
+@media (min-width: 992px) {
+    .container {
+        width: 870px;
+    }
+}
+@media (min-width: 1200px) {
+    .container {
+        width:870px;
+    }
+}
+
+.form-horizontal .control-label-right {text-align:right;}
+
+.form-message {margin-top:5px;padding:10px;border:1px solid silver;font-size:1.2em;font-weight:bold;}
+.form-message.goodmsg{border-color:#32a063;background-color:#9eea93;}
+.form-message.badmsg{border-color:#ff0000;background-color:#f78383;}
+
+.eform-body {
+}
+.eform-control{
+
+}
+.eform-control label .reqa {color:red;}
+.eform-label {
+}
+
+.eform-actions {margin-top: 10px;border-top:1px solid silver;padding:10px;}
+.eform-actions .btn {min-width:100px;margin-right:5px;margin-left:5px;}
+
+.submit-message {display:none;}
+.submit-message.active {display:block;}
+
+.has-error .help-block, .has-error .control-label, .has-error .radio, .has-error .checkbox, .has-error .radio-inline, .has-error .checkbox-inline
+{
+    color:red;
+}
+.has-error .form-control{border-color:red;}

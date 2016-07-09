@@ -1,0 +1,6 @@
+﻿.radio input[type=radio], .radio-inline input[type=radio], .checkbox input[type=checkbox], .checkbox-inline input[type=checkbox]
+{
+    float: right;
+    margin-left: 20px;
+    margin-right: -20px;
+}

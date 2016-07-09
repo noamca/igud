@@ -1,0 +1,46 @@
+﻿.depad .eform {padding-left:15px;padding-right:15px;}
+.eform #eventTitle {display:none;}
+.eform #eventInfo {display:none;}
+.eform-body .error-block {
+    display: none;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-size:0.9em;
+}
+
+.eform-checkbox label {font-size:0.9em;}
+
+.eform-body .datepicker {direction: rtl;}
+.runisrael-blue {color:#084492;font-style:oblique;}
+.runisrael-cyan {color:#08ABED;}
+
+#pnlHealthMessage.goodmsg{border-color:#32a063;background-color:#9eea93;padding:5px;}
+#pnlHealthMessage.badmsg{border-color:#ff0000;background-color:#f78383;padding:5px;}
+
+.eform-body .has-error .error-block {color:red;display: block;font-size:0.8em;}
+.eform-body .eform-checkbox label {font-weight:bold;}
+
+.eform-radiolist ul.form-control { border: 0; box-shadow:none;padding: 3px;height: 32px;}
+.eform-radiolist ul li { float: right;  margin: 2px 10px;}
+.eform-radiolist ul.input-lg li label {font-size:16px;}
+
+.user-panel .form-horizontal .control-label {text-align:right;}
+.user-panel .form-horizontal .control-label .reda {color:red;}
+.user-panel h4 {border-bottom:1px solid silver;padding-bottom: 8px;font-weight:bold;}
+
+.eform-event-categories {margin-top:25px;}
+.eform-event-categories label {font-size:1.1em;}
+.eform-event-categories .categories-list.buttons {text-align:center;}
+.eform-event-categories .btn.default {color: #333333;background-color: #E5E5E5;}
+.eform-event-categories .categories-list .btn.btn-lg{padding: 14px 22px;font-size: 22px;line-height: 1.5;}
+.eform-event-categories.has-error .categories-control label {color:red;}
+
+.panel-cost.no-discount hr {display:none;}
+
+.eform-relayrace-manager { border: 1px solid #ddd;  padding: 15px;}
+.eform-relayrace-manager .relayRace-control{}
+.eform-relayrace-manager .runner-headrow span {font-weight:bold;}
+.eform-relayrace-manager .runner-row{margin-right:0;}
+.eform-relayrace-manager .runner-row span{cursor:pointer;padding:3px;}
+.eform-relayrace-manager .btn-remove{padding:0;}
+.eform-relayrace-manager div.runner-row:hover{background-color:#f5f5f5}

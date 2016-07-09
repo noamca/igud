@@ -1,0 +1,53 @@
+﻿body{}
+.hide{display:none}
+.clear{clear:both;}
+.clearl{clear:left;}
+.clearr{clear:right;}
+
+.msgboxpager ul{}
+.msgboxpager ul li { float:left;min-width:20px;text-align:center; margin:3px}
+.msgboxpager ul li a {display:block;padding:3px 4px;}
+.msgboxpager ul li a:hover {background-color:#056;color:#fff;text-decoration:none;font-weight:bold;}
+.msgboxpager ul li.active { border:0;}
+.msgboxpager ul li.active a {color:#000;font-weight:bold;}
+.msgboxpager ul li.active a:hover {background-color:Transparent;color:#000;}
+.inbox .footer {float:right;}
+
+.wpcbox span {cursor:pointer;padding:0px 4px;}
+
+.jqmWindow {display: none;position: fixed;top: 17%;left: 50%;margin-left: -300px;width: 600px;    
+    background-color: #EEE;color: #333;border: 1px solid black;padding: 12px;}
+.jqmOverlay { background-color: #000; }
+
+/* Fixed posistioning emulation for IE6
+     Star selector used to hide definition from browsers other than IE6
+     For valid CSS, use a conditional include instead */
+* html .jqmWindow {
+     position: absolute;
+     top: expression((document.documentElement.scrollTop || document.body.scrollTop) + Math.round(17 * (document.documentElement.offsetHeight || document.body.clientHeight) / 100) + 'px');
+}
+
+.overlay
+{
+    z-index:10000; 
+    background-color:#f7f7f7;    
+    width:675px;     
+    min-height:200px; 
+    border:1px solid #666; 
+	display:none;
+	padding:20px;
+}
+.overlay .close { 
+    background-image:url(/images/overlay_closeFilled.gif); 
+    position:absolute; 
+    left:0; 
+    top:0; 
+    cursor:pointer; 
+    height:35px; 
+    width:35px; 
+}
+
+.yellowbar {background-color:#fff9d7;border:1px solid #e2c822;padding:3px;margin-bottom:5px;}
+.yellowbar img {margin:1px 6px 2px 4px;padding:0;float:left;}
+
+.ui-helper-hidden-accessible { clip: auto; }
