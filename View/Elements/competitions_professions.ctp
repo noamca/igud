@@ -5,6 +5,7 @@
   
 	<h2>מקצועות התחרות</h2>
     
+    
 	<table cellpadding="0" cellspacing="0">
 	<tr>
             <th class="actions"></th>
