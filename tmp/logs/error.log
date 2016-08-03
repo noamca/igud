@@ -44,3 +44,252 @@ Request URL: /igud/customers
 Stack Trace:
 #0 C:\xampp\htdocs\igud\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2016-07-30 12:03:53 Error: [MissingControllerException] Controller class AjaxController could not be found.
+Exception Attributes: array (
+  'class' => 'AjaxController',
+  'plugin' => NULL,
+)
+Request URL: /igud/ajax/jkjkjk
+Stack Trace:
+#0 C:\xampp\htdocs\igud\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-07-30 12:06:19 Error: [MissingViewException] View file "C:\xampp\htdocs\igud\View\Ajax\proccess_ajax_request.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\xampp\\htdocs\\igud\\View\\Ajax\\proccess_ajax_request.ctp',
+)
+Request URL: /igud/ajax/jkjkjk
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\Cake\View\View.php(496): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\cakephp\Cake\Controller\Controller.php(952): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\cakephp\Cake\Routing\Dispatcher.php(194): Controller->render()
+#3 C:\xampp\htdocs\cakephp\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(AjaxController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\igud\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-07-30 14:04:38 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'competition_id' cannot be null
+Request URL: /igud/ajax
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('INSERT INTO `at...', Array)
+#2 C:\xampp\htdocs\cakephp\Cake\Model\Datasource\DboSource.php(1004): DboSource->execute('INSERT INTO `at...')
+#3 C:\xampp\htdocs\cakephp\Cake\Model\Model.php(1745): DboSource->create(Object(CompetitionsProfession), Array, Array)
+#4 C:\xampp\htdocs\igud\Controller\AjaxController.php(31): Model->save(Array)
+#5 [internal function]: AjaxController->proccessAjaxRequest()
+#6 C:\xampp\htdocs\cakephp\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(AjaxController), Array)
+#7 C:\xampp\htdocs\cakephp\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#8 C:\xampp\htdocs\cakephp\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(AjaxController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\xampp\htdocs\igud\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2016-07-30 14:05:23 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'competition_id' cannot be null
+Request URL: /igud/ajax
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('INSERT INTO `at...', Array)
+#2 C:\xampp\htdocs\cakephp\Cake\Model\Datasource\DboSource.php(1004): DboSource->execute('INSERT INTO `at...')
+#3 C:\xampp\htdocs\cakephp\Cake\Model\Model.php(1745): DboSource->create(Object(CompetitionsProfession), Array, Array)
+#4 C:\xampp\htdocs\igud\Controller\AjaxController.php(31): Model->save(Array)
+#5 [internal function]: AjaxController->proccessAjaxRequest()
+#6 C:\xampp\htdocs\cakephp\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(AjaxController), Array)
+#7 C:\xampp\htdocs\cakephp\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#8 C:\xampp\htdocs\cakephp\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(AjaxController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\xampp\htdocs\igud\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2016-07-30 16:53:15 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'competition_id' cannot be null
+Request URL: /igud/ajax
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('INSERT INTO `at...', Array)
+#2 C:\xampp\htdocs\cakephp\Cake\Model\Datasource\DboSource.php(1004): DboSource->execute('INSERT INTO `at...')
+#3 C:\xampp\htdocs\cakephp\Cake\Model\Model.php(1745): DboSource->create(Object(CompetitionsProfession), Array, Array)
+#4 C:\xampp\htdocs\igud\Controller\AjaxController.php(31): Model->save(Array)
+#5 [internal function]: AjaxController->proccessAjaxRequest()
+#6 C:\xampp\htdocs\cakephp\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(AjaxController), Array)
+#7 C:\xampp\htdocs\cakephp\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#8 C:\xampp\htdocs\cakephp\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(AjaxController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\xampp\htdocs\igud\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2016-07-30 17:08:14 Error: [CakeSessionException] Unable to configure the session, setting session.auto_start failed.
+Request URL: /igud/ajax/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\Cake\Model\Datasource\CakeSession.php(189): CakeSession::_configureSession()
+#1 C:\xampp\htdocs\cakephp\Cake\Model\Datasource\CakeSession.php(216): CakeSession::start()
+#2 C:\xampp\htdocs\cakephp\Cake\Controller\Component\AuthComponent.php(596): CakeSession::check('Auth.User')
+#3 C:\xampp\htdocs\cakephp\Cake\Controller\Component\AuthComponent.php(771): AuthComponent::user()
+#4 C:\xampp\htdocs\cakephp\Cake\Controller\Component\AuthComponent.php(760): AuthComponent->loggedIn()
+#5 [internal function]: AuthComponent->shutdown(Object(AjaxController))
+#6 C:\xampp\htdocs\cakephp\Cake\Utility\ObjectCollection.php(132): call_user_func_array(Array, Array)
+#7 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#8 C:\xampp\htdocs\cakephp\Cake\Event\CakeEventManager.php(248): call_user_func(Array, Object(CakeEvent))
+#9 C:\xampp\htdocs\cakephp\Cake\Controller\Controller.php(688): CakeEventManager->dispatch(Object(CakeEvent))
+#10 C:\xampp\htdocs\cakephp\Cake\Routing\Dispatcher.php(200): Controller->shutdownProcess()
+#11 C:\xampp\htdocs\cakephp\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(AjaxController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\xampp\htdocs\igud\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2016-07-30 17:20:44 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'competition_id' cannot be null
+Request URL: /igud/ajax/proccessAjaxRequest/competitionAddProfession
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('INSERT INTO `at...', Array)
+#2 C:\xampp\htdocs\cakephp\Cake\Model\Datasource\DboSource.php(1004): DboSource->execute('INSERT INTO `at...')
+#3 C:\xampp\htdocs\cakephp\Cake\Model\Model.php(1745): DboSource->create(Object(CompetitionsProfession), Array, Array)
+#4 C:\xampp\htdocs\igud\Controller\AjaxController.php(39): Model->save(Array)
+#5 [internal function]: AjaxController->proccessAjaxRequest('proccessAjaxReq...', 'competitionAddP...')
+#6 C:\xampp\htdocs\cakephp\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(AjaxController), Array)
+#7 C:\xampp\htdocs\cakephp\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#8 C:\xampp\htdocs\cakephp\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(AjaxController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\xampp\htdocs\igud\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2016-07-30 17:24:35 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'weight' cannot be null
+Request URL: /igud/ajax/proccessAjaxRequest/competitionAddProfession
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('INSERT INTO `at...', Array)
+#2 C:\xampp\htdocs\cakephp\Cake\Model\Datasource\DboSource.php(1004): DboSource->execute('INSERT INTO `at...')
+#3 C:\xampp\htdocs\cakephp\Cake\Model\Model.php(1745): DboSource->create(Object(CompetitionsProfession), Array, Array)
+#4 C:\xampp\htdocs\igud\Controller\AjaxController.php(39): Model->save(Array)
+#5 [internal function]: AjaxController->proccessAjaxRequest('proccessAjaxReq...', 'competitionAddP...')
+#6 C:\xampp\htdocs\cakephp\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(AjaxController), Array)
+#7 C:\xampp\htdocs\cakephp\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#8 C:\xampp\htdocs\cakephp\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(AjaxController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\xampp\htdocs\igud\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2016-07-30 17:55:31 Error: [MissingViewException] View file "C:\xampp\htdocs\igud\View\Ajax\Elements\competitions_professions.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\xampp\\htdocs\\igud\\View\\Ajax\\Elements\\competitions_professions.ctp',
+)
+Request URL: /igud/ajax/proccessAjaxRequest/competitionAddProfession
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\Cake\View\View.php(496): View->_getViewFileName('Elements/compet...')
+#1 C:\xampp\htdocs\cakephp\Cake\Controller\Controller.php(952): View->render('Elements/compet...', NULL)
+#2 C:\xampp\htdocs\igud\Controller\AjaxController.php(37): Controller->render('Elements/compet...')
+#3 [internal function]: AjaxController->proccessAjaxRequest('proccessAjaxReq...', 'competitionAddP...')
+#4 C:\xampp\htdocs\cakephp\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(AjaxController), Array)
+#5 C:\xampp\htdocs\cakephp\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#6 C:\xampp\htdocs\cakephp\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(AjaxController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\xampp\htdocs\igud\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2016-07-30 17:57:51 Error: [MissingViewException] View file "C:\xampp\htdocs\igud\View\Ajax\Elements\competitions_professions.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\xampp\\htdocs\\igud\\View\\Ajax\\Elements\\competitions_professions.ctp',
+)
+Request URL: /igud/ajax/proccessAjaxRequest/competitionAddProfession
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\Cake\View\View.php(496): View->_getViewFileName('Elements/compet...')
+#1 C:\xampp\htdocs\cakephp\Cake\Controller\Controller.php(952): View->render('Elements/compet...', NULL)
+#2 C:\xampp\htdocs\igud\Controller\AjaxController.php(37): Controller->render('Elements/compet...')
+#3 [internal function]: AjaxController->proccessAjaxRequest('proccessAjaxReq...', 'competitionAddP...')
+#4 C:\xampp\htdocs\cakephp\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(AjaxController), Array)
+#5 C:\xampp\htdocs\cakephp\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#6 C:\xampp\htdocs\cakephp\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(AjaxController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\xampp\htdocs\igud\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2016-07-30 17:59:32 Error: [MissingViewException] View file "C:\xampp\htdocs\igud\View\Ajax\Elements\competitions_professions.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\xampp\\htdocs\\igud\\View\\Ajax\\Elements\\competitions_professions.ctp',
+)
+Request URL: /igud/ajax/proccessAjaxRequest/competitionAddProfession/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\Cake\View\View.php(496): View->_getViewFileName('Elements/compet...')
+#1 C:\xampp\htdocs\cakephp\Cake\Controller\Controller.php(952): View->render('Elements/compet...', NULL)
+#2 C:\xampp\htdocs\igud\Controller\AjaxController.php(37): Controller->render('Elements/compet...')
+#3 [internal function]: AjaxController->proccessAjaxRequest('proccessAjaxReq...', 'competitionAddP...')
+#4 C:\xampp\htdocs\cakephp\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(AjaxController), Array)
+#5 C:\xampp\htdocs\cakephp\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#6 C:\xampp\htdocs\cakephp\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(AjaxController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\xampp\htdocs\igud\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2016-07-30 18:14:45 Error: [MissingTableException] Table competition_professions for model CompetitionProfession was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'competition_professions',
+  'class' => 'CompetitionProfession',
+  'ds' => 'default',
+)
+Request URL: /igud/competitions/edit/178?data%5Bcompetition_id%5D=&data%5Baction%5D=competitionAddProfession&data%5Bprofession_id%5D=1&data%5Bgender%5D=&data%5Bstart_hour%5D=&data%5Bend_hour%5D=&data%5Bwind_measure_yn%5D=&data%5Bweight%5D=&data%5Bmax_lanes%5D=&ajaxAddProfession=
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\Cake\Model\Model.php(3247): Model->setSource('competition_pro...')
+#1 C:\xampp\htdocs\cakephp\Cake\Model\Datasource\DboSource.php(1063): Model->getDataSource()
+#2 C:\xampp\htdocs\cakephp\Cake\Model\Model.php(2700): DboSource->read(Object(Competition), Array)
+#3 C:\xampp\htdocs\igud\Controller\CompetitionsController.php(174): Model->find('first', Array)
+#4 [internal function]: CompetitionsController->edit('178')
+#5 C:\xampp\htdocs\cakephp\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(CompetitionsController), Array)
+#6 C:\xampp\htdocs\cakephp\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#7 C:\xampp\htdocs\cakephp\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(CompetitionsController), Object(CakeRequest), Object(CakeResponse))
+#8 C:\xampp\htdocs\igud\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2016-07-30 18:15:14 Error: [MissingTableException] Table competition_professions for model CompetitionProfession was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'competition_professions',
+  'class' => 'CompetitionProfession',
+  'ds' => 'default',
+)
+Request URL: /igud/competitions/edit/2953
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\Cake\Model\Model.php(3247): Model->setSource('competition_pro...')
+#1 C:\xampp\htdocs\cakephp\Cake\Model\Datasource\DboSource.php(1063): Model->getDataSource()
+#2 C:\xampp\htdocs\cakephp\Cake\Model\Model.php(2700): DboSource->read(Object(Competition), Array)
+#3 C:\xampp\htdocs\igud\Controller\CompetitionsController.php(174): Model->find('first', Array)
+#4 [internal function]: CompetitionsController->edit('2953')
+#5 C:\xampp\htdocs\cakephp\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(CompetitionsController), Array)
+#6 C:\xampp\htdocs\cakephp\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#7 C:\xampp\htdocs\cakephp\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(CompetitionsController), Object(CakeRequest), Object(CakeResponse))
+#8 C:\xampp\htdocs\igud\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2016-07-30 18:16:29 Error: [MissingTableException] Table competition_professions for model competitions_professions was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'competition_professions',
+  'class' => 'competitions_professions',
+  'ds' => 'default',
+)
+Request URL: /igud/competitions/edit/2953
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\Cake\Model\Model.php(3247): Model->setSource('competition_pro...')
+#1 C:\xampp\htdocs\cakephp\Cake\Model\Datasource\DboSource.php(1063): Model->getDataSource()
+#2 C:\xampp\htdocs\cakephp\Cake\Model\Model.php(2700): DboSource->read(Object(Competition), Array)
+#3 C:\xampp\htdocs\igud\Controller\CompetitionsController.php(174): Model->find('first', Array)
+#4 [internal function]: CompetitionsController->edit('2953')
+#5 C:\xampp\htdocs\cakephp\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(CompetitionsController), Array)
+#6 C:\xampp\htdocs\cakephp\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#7 C:\xampp\htdocs\cakephp\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(CompetitionsController), Object(CakeRequest), Object(CakeResponse))
+#8 C:\xampp\htdocs\igud\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2016-07-30 18:56:53 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Competition.competition_id' in 'where clause'
+Request URL: /igud/ajax/proccessAjaxRequest/competitionAddProfession
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `Competi...', Array)
+#2 C:\xampp\htdocs\cakephp\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `Competi...', Array, Array)
+#3 C:\xampp\htdocs\cakephp\Cake\Model\Datasource\DboSource.php(1077): DboSource->fetchAll('SELECT `Competi...', false)
+#4 C:\xampp\htdocs\cakephp\Cake\Model\Model.php(2700): DboSource->read(Object(Competition), Array)
+#5 C:\xampp\htdocs\cakephp\Cake\Model\Datasource\DboSource.php(599): Model->find('first', Array)
+#6 C:\xampp\htdocs\cakephp\Cake\Model\Model.php(799): DboSource->query('findByCompetiti...', Array, Object(Competition))
+#7 C:\xampp\htdocs\igud\Controller\AjaxController.php(37): Model->__call('findByCompetiti...', Array)
+#8 C:\xampp\htdocs\igud\Controller\AjaxController.php(37): Competition->findByCompetitionId('178')
+#9 [internal function]: AjaxController->proccessAjaxRequest('proccessAjaxReq...', 'competitionAddP...')
+#10 C:\xampp\htdocs\cakephp\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(AjaxController), Array)
+#11 C:\xampp\htdocs\cakephp\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#12 C:\xampp\htdocs\cakephp\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(AjaxController), Object(CakeRequest), Object(CakeResponse))
+#13 C:\xampp\htdocs\igud\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2016-07-30 19:20:17 Error: [MissingViewException] View file "C:\xampp\htdocs\igud\View\Elements\competitions_candidates.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\xampp\\htdocs\\igud\\View\\Elements\\competitions_candidates.ctp',
+)
+Request URL: /igud/ajax/proccessAjaxRequest/competitionAddCandidate
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\Cake\View\View.php(496): View->_getViewFileName('/Elements/compe...')
+#1 C:\xampp\htdocs\cakephp\Cake\Controller\Controller.php(952): View->render('/Elements/compe...', NULL)
+#2 C:\xampp\htdocs\igud\Controller\AjaxController.php(51): Controller->render('/Elements/compe...')
+#3 [internal function]: AjaxController->proccessAjaxRequest('proccessAjaxReq...', 'competitionAddC...')
+#4 C:\xampp\htdocs\cakephp\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(AjaxController), Array)
+#5 C:\xampp\htdocs\cakephp\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#6 C:\xampp\htdocs\cakephp\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(AjaxController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\xampp\htdocs\igud\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2016-08-03 05:47:09 Error: [NotFoundException] Invalid competition
+Request URL: /igud/competitions/edit
+Stack Trace:
+#0 [internal function]: CompetitionsController->edit()
+#1 C:\xampp\htdocs\cakephp\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(CompetitionsController), Array)
+#2 C:\xampp\htdocs\cakephp\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\cakephp\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(CompetitionsController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\igud\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}

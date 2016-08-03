@@ -1,5 +1,5 @@
 <div class="Athlets form">
-<?php echo $this->Form->create('Athlet'); ?>
+<?php echo $this->Form->create('Athlet'); ?> 
 	<fieldset>
 		<legend>כרטיס ספורטאי <?=$data['first_name']." ".$data['last_name']?></legend>
 	<?php
@@ -150,8 +150,8 @@
        
      </div>
 
-    </div>
 </div>
+
 
 
 

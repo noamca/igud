@@ -49,7 +49,7 @@ class AppController extends Controller {
         )
     );
 
-    public function beforeFilter() {
+    public function beforeFilter() {       
         // Security::setHash('md5');
         //echo  Security::getHash(); die();
         if(!session_id()) session_start();

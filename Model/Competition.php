@@ -39,5 +39,55 @@ class Competition extends AppModel {
 			'insertQuery' => ''
 		)
 	);
+    
+    public $hasMany = array(
+        'CompetitionsProfessions' => array(
+            'className' => 'CompetitionsProfessions',
+            'foreignKey' => 'competition_id',
+            'dependent' => false,
+            'conditions' => '',
+            'fields' => '',
+            'order' => '',
+            'limit' => '',
+            'offset' => '',
+            'exclusive' => '',
+            'finderQuery' => '',
+            'counterQuery' => ''
+        ),
+       'CompetitionsCandidates' => array(
+            'className' => 'CompetitionsCandidates',
+            'foreignKey' => 'competition_id',
+            'dependent' => false,
+            'conditions' => '',
+            'fields' => '',
+            'order' => '',
+            'limit' => '',
+            'offset' => '',
+            'exclusive' => '',
+            'finderQuery' => '',
+            'counterQuery' => ''
+        ),   
+        
+       'CompetitionsReferees' => array(
+            'className' => 'CompetitionsReferees',
+            'foreignKey' => 'competition_id',
+            'dependent' => false,
+            'conditions' => '',
+            'fields' => '',
+            'order' => '',
+            'limit' => '',
+            'offset' => '',
+            'exclusive' => '',
+            'finderQuery' => '',
+            'counterQuery' => ''
+        ),                   
+        
+        
+        
+        
+        
+        
+        );
+    
 
 }

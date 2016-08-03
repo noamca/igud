@@ -175,6 +175,9 @@ class CompetitionsController extends AppController {
 		}
 		$professions = $this->Competition->Profession->find('list');
 		$this->set(compact('professions'));
+        $this->set('competition',$this->request->data);
+     //   print_r($this->request->data) ;
+        $this->set('id',$id);
 	}
 
 /**

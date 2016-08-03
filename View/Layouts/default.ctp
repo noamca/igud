@@ -111,7 +111,8 @@
         <script src="<?=fullSiteAddress?>/assets/js/ace.min.js"></script>
         <script src="<?=fullSiteAddress?>/assets/js/chosen.jquery.min.js"></script>
         <script src="<?=fullSiteAddress?>/assets/js/date-time/bootstrap-datepicker.min.js"></script>    
-        <script src="<?=fullSiteAddress?>/assets/js/jquery.maskedinput.min.js"></script>    
+        <script src="<?=fullSiteAddress?>/assets/js/jquery.maskedinput.min.js"></script>  
+        <script src="<?=fullSiteAddress?>/js/appFuncs.js"></script>   
         
     </head>
 
